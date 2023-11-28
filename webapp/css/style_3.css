@@ -1,0 +1,99 @@
+body{
+    background-color: aqua;
+    background-image: url(../img/paisley.webp);
+    color:blueviolet;
+    font-size: 21px;
+
+    font-family: Calibri, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 70px;
+    color: #37473b;
+    margin-bottom: 0px;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+    line-height: 1.5;
+}
+
+a{
+    color:palevioletred;
+}
+
+/* a:visited{
+    color: black;
+} */
+
+a:hover{
+    color:greenyellow;
+}
+
+a:focus{
+    color:bisque;
+}
+
+.body-text{
+    background-color: #33cc00;
+    padding: 40px;
+}
+
+/*the paragraph selection here is specific to the one in .body-text*/
+.body-text p{
+    color: white;
+}
+
+.body-text a{
+    color:#004466;
+}
+
+.body-text a:hover{
+    color:#e65c00;
+}
+
+/*this does not change the color of important link inside of
+the body-text div*/
+.important-link{
+    color:yellow;
+}
+
+/*this changes the color of important link inside of
+the body-text div*/
+.body-text .important-link{
+    color:yellow;
+}
+
+ol{
+    list-style-type:upper-roman;
+    background-color: pink;
+    padding: 50px;
+}
+
+/*ul{
+    list-style-image: url();
+}*/
+
+ul{
+    background-color: blue;
+    padding: 50px;
+    list-style-position: inside;
+}
+
+ul li{
+    background: red;
+    margin-bottom: 10px;
+}
+
+ol li{
+    background: red;
+    margin-bottom: 10px;
+    color: white;
+}

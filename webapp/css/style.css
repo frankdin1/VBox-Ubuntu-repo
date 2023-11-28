@@ -1,0 +1,59 @@
+body{
+    background-image: url(../img/paisley.webp);
+    color:aliceblue;
+    font-size: 21px;
+}
+
+p{
+    color:blueviolet;
+}
+
+.intro{
+    font-size: 30px;
+    color:green;
+}
+
+.highlight{
+    background: yellow;
+}
+
+.accent-color{
+    color: red;
+}
+
+h1{
+    font-size:70px;
+    color:blue;
+}
+
+div{
+    background: pink;
+    width:500px;
+}
+
+.top-section{
+    background: purple;
+}
+
+.box{
+    background-image: url(../img/painting-mountain-lake-with-mountain-background_188544-9126.avif);
+    /*we use ../ for the image url because we are currently in the css folder
+    but the image is in a different folder*/
+    width: 50%;
+    margin: auto;
+
+    /*margin: 100px;*/
+    border: 10px solid red;
+    padding: 100px 50px;/*increasing the padding increases the surface
+    area and causes the image to repeat itself more inorder to 
+    cover that surface area.*/
+
+    /*the backgraound-repeat function with the no repeat option
+    stops the image from repeating itself*/
+    /*background-repeat: no-repeat;*/
+
+    /*the repeat-x option causes the image to repeat in the x-axis
+    the repeaet-y option causes the image to repeat in the y-axis*/
+
+
+}

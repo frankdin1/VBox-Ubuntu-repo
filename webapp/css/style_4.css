@@ -1,0 +1,29 @@
+.container{
+    width:80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.subsection{
+    color: red;
+}
+
+.subsection.header{
+    color: blue;
+}
+
+.subsection#preview{
+    color: green;
+}
+
+.subsection-heading{
+    color: yellow;
+}
+
+.subsection-heading .subsection-subheading{
+    color:purple;
+}
+
+.subsection-heading #preview2{
+    color: orange;
+}
